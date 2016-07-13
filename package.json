@@ -1,0 +1,24 @@
+{
+  "name": "automobie_landing",
+  "version": "1.0.0",
+  "description": "Landing Page for Auto Mobiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj-gupta/AutoMobile_Landing.git"
+  },
+  "keywords": [
+    "Responsive",
+    "spa",
+    "bootstrap"
+  ],
+  "author": "Neeraj Gupta <neeraj.1286@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neeraj-gupta/AutoMobile_Landing/issues"
+  },
+  "homepage": "https://github.com/neeraj-gupta/AutoMobile_Landing#readme"
+}
