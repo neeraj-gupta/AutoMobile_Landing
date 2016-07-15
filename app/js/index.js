@@ -18,15 +18,39 @@
                         '<button>View All</button>' +
                     '</div>' +
                     '<div class="col-lg-6 col-md-6 col-sm-6">' +
-                        '<div class="image"><img src="images/' + myData[index].images[0] + '"></div>' +
-                        '<div class="image"><img src="images/' + myData[index].images[1] + '"></div>' +
+                        '<div class="image">' +
+                            '<img src="images/' + myData[index].images[0] + '">' +
+                            '<div class="overlay">' +
+                                '<h2>'+ myData[index].images[0] +'</h2>' +
+                                '<a class="info">Learn More</a>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="image">' +
+                            '<img src="images/' + myData[index].images[1] + '">' +
+                            '<div class="overlay">' +
+                                '<h2>'+ myData[index].images[1] +'</h2>' +
+                                '<a class="info">Learn More</a>' +
+                            '</div>' +
+                        '</div>' +
                     '</div>' +
                 '</div>'
             } else {
                 contentStr += '<div class="row">' +
                     '<div class="col-lg-6 col-md-6 col-sm-6">' +
-                        '<div class="image"><img src="images/' + myData[index].images[0] + '"></div>' +
-                        '<div class="image"><img src="images/' + myData[index].images[1] + '"></div>' +
+                        '<div class="image">' +
+                            '<img src="images/' + myData[index].images[0] + '">' +
+                            '<div class="overlay">' +
+                                '<h2>'+ myData[index].images[0] +'</h2>' +
+                                '<a class="info">Learn More</a>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="image">' +
+                            '<img src="images/' + myData[index].images[1] + '">' +
+                            '<div class="overlay">' +
+                                '<h2>'+ myData[index].images[1] +'</h2>' +
+                                '<a class="info">Learn More</a>' +
+                            '</div>' +
+                        '</div>' +
                     '</div>' +
                     '<div class="col-lg-6 col-md-6 col-sm-6">' +
                         '<h1>'+ myData[index].name +'</h1>' +
