@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/neeraj-gupta/AutoMobile_Landing/issues"
   },
-  "homepage": "https://github.com/neeraj-gupta/AutoMobile_Landing#readme"
+  "homepage": "https://github.com/neeraj-gupta/AutoMobile_Landing#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
 }

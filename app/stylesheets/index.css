@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    background: white;
+}
+header {
+    width: 100%;
+    background-color: black;
+}
+header > nav > ul {
+    display: inline-block;
+}
+header > nav > ul > li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+.logo > img, .search > img {
+    display: inline!important;
+    height: 25px;
+    width: 25px;
+    line-height: 20px;
+}
+.logo > span {
+    color: white;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    margin: 2px 0 0 5px;
+}
+section {
+    width: 100%;
+    height: auto;
+}
+.adv {
+    width: 100%;
+    height: 360px;
+    background: url("../images/hero.png");
+    background-size: 100% 100%;
+}
+.adv .headline{
+    position: absolute;
+    margin: 8% 0 0 15%;
+}
+.headline > p {
+    font-weight: 900;
+    font-size: 36px;
+    margin: 0;
+}
+.headline > button {
+    background-color: #28c278;
+    color: white;
+    border: 0;
+    margin-top: 2%;
+    padding: 2% 5%;
+}
+.headline > button:hover {
+    background-color: #87ff7f;
+}
+/* Search Bar */
+.searchBar{
+    width: 100%;
+    height: 100%;
+    padding: 2% 5%;
+}
+.searchBar > #searchCar {
+    width: 100%;
+    height: auto;
+}
+#searchCar select,#searchCar button {
+    width: 23%;
+    height: auto;
+    margin: 1%;
+}
+.searchBar select {
+    padding: 5px;
+}
+.searchBar select:hover {
+    cursor: pointer;
+}
+.searchBar button {
+    background-color: #F07E5E;
+    color: white;
+    border: 0;
+    padding: 5px 20px;
+}
+.searchBar button:hover {
+    background-color: #FD9476;
+}
+.content {
+    width: 100%;
+    height: auto;
+    overflow:visible;
+}
+.content > .contentContainer > div:nth-child(odd) {
+    background: #f0f2f3;
+}
+.contentContainer button {
+    background: #4fc4e6;
+    border: 0;
+    color: white;
+}
+.contentContainer button:hover{
+    background: #4fc4d2;
+}
+.contentContainer .image {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 46%;
+    margin: 1%;
+}
+.image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.image:after{
+    content: "Learn More";
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background: rgba(0,0,0,0.6);
+}
+.image:hover:after {
+    opacity: 1;
+}
+#footer {
+    height: 80px;
+    background-color: #3d4852;
+    padding: 30px 0;
+}
+#footer div:nth-child(2){
+    color: #9d9d9d;
+    text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:14px;
+    }
+}
